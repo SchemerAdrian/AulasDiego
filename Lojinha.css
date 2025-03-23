@@ -86,26 +86,26 @@ header{
 @media screen and (max-width: 600px) {
     .menu{
         min-width: 60px;
-
     }
-}
-
-@media screen and (max-width: 600px) {
     #menu:checked ~ .menu{
         right: -15%;
+    }
+    .produto img{
+        width:150px;
+        height: 150px;
     }
 }
 
 @media (max-width: 1024px) and (min-width: 601px) {
     .menu{
         min-width: 100px;
-
     }
-}
-
-@media (max-width: 1024px) and (min-width: 601px) {
     #menu:checked ~ .menu{
         right: -15%;
+    }
+    .produto img{
+        width:180px;
+        height: 180px;
     }
 }
 
